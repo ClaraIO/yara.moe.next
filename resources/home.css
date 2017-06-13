@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #f9add0;
+}
+
+.texttitle {
+	padding:10px !important;
+}
+.btntext {
+    width: 139px;
+	height: 15px;
+	font-family: Roboto;
+	color: #fb6bae;
+	font-size: 21px;
+	font-weight: 300;
+}
