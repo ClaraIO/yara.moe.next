@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Muli);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 /* CSS Document */
 body {
 	background-color: #f9add0;
@@ -14,4 +16,8 @@ body {
 	color: #fb6bae;
 	font-size: 21px;
 	font-weight: 300;
+}
+
+.muli {
+	font-family: 'Muli Light', 'Roboto', sans-serif;
 }
