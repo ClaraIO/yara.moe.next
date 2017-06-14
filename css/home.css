@@ -22,11 +22,11 @@ body {
 .muli {
 	font-family: 'Muli Light', 'Roboto', sans-serif;
 }
-/* floating anims ripped from Discord */
-
-.background {
+.background .images {
 	position: absolute;
+	max-height: 638px;
 	z-index:-1 !important;
+	padding:inherit !important;
 }
 
 @keyframes float-landing {
