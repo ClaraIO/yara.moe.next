@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 /* CSS Document */
 body {
+	text-rendering: optimizeLegibility;
 	background-color: #f9add0;
 }
 
@@ -20,4 +21,35 @@ body {
 
 .muli {
 	font-family: 'Muli Light', 'Roboto', sans-serif;
+}
+/* floating anims ripped from Discord */
+
+.background {
+	position: absolute;
+	z-index:-1 !important;
+}
+
+@keyframes float-landing {
+    0% {
+        -webkit-transform: translate3d(0,-4px,0);
+        transform: translate3d(0,-4px,0)
+    }
+
+    to {
+        -webkit-transform: translate3d(0,4px,0);
+        transform: translate3d(0,4px,0)
+    }
+}
+
+div#landing_mascot .images .svg .float {
+    -webkit-animation-name: float-landing;
+    animation-name: float-landing;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
 }
