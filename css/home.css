@@ -27,6 +27,28 @@ body {
 	z-index:-1 !important;
 	padding:inherit !important;
 }
+#index-banner .section {
+    top: 10%;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.parallax-container .section {
+    width: 100%;
+}
 
 @keyframes float-landing {
     0% {
