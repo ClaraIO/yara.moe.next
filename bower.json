@@ -33,6 +33,7 @@
     "paper-elements": "PolymerElements/paper-elements#^1.0.7",
     "polymer": "Polymer/polymer#^2.1.1",
     "sampler-scaffold": "Polymer/sampler-scaffold#^0.5",
-    "core-style": "Polymer/core-style#^0.5"
+    "core-style": "Polymer/core-style#^0.5",
+    "app-layout": "PolymerElements/app-layout#^2.0.2"
   }
 }
