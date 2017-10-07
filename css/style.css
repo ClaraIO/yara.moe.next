@@ -1,0 +1,10 @@
+.item {
+	flex-direction: column;
+	padding-bottom: 3%;
+	padding-left: 10% ;
+	padding-right: 10%;
+}
+
+.container {
+	display: block;
+}
