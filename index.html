@@ -18,6 +18,7 @@
     <link rel="import" href="bower_components/paper-styles/color.html">
     <link rel="import" href="bower_components/paper-card/paper-card.html">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="js/paperButtonHref.js"></script>
     <style is="custom-style">
         #container {
             display: flex;
@@ -71,7 +72,7 @@
                 <p style="padding-left:10%; padding-right:10%"> We're hard at work at the moment. Meanwhile, you can help us implement a few things.</p>
             </div>
             <div class="card-actions">
-                <paper-button><i class="material-icons" style="padding-right:3%;">code</i><a href="https://github.com/ClarityMoe/claritymoe.github.io">IMPROVE THIS PAGE</a></paper-button>
+                <paper-button onclick="goToLink(this, 'https://github.com/ClarityMoe/claritymoe.github.io')"><i class="material-icons" style="padding-right:3%;">code</i>IMPROVE THIS PAGE</paper-button>
             </div>
         </paper-card>
         <br/>
