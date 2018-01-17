@@ -2,59 +2,16 @@
 <html>
 
 <head>
-    <title>Clarity | Empowering stuff through code and memes</title>
     <meta charset="UTF-8">
+    <meta decription="empowring stuff through code and memes">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-    <!-- Gya -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Clarity | </title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
-    <link rel="import" href="bower_components/iron-icon/iron-icon.html">
-    <link rel="import" href="bower_components/iron-icon/communication-icons.html">
-    <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
-    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="bower_components/paper-button/paper-button.html">
-    <link rel="import" href="bower_components/paper-styles/color.html">
-    <link rel="import" href="bower_components/paper-card/paper-card.html">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <script src="js/paperButtonHref.js"></script>
-    <style is="custom-style">
-        #container {
-            display: flex;
-        }
-
-        body {
-            align-items: center;
-            justify-content: center;
-        }
-
-        paper-button {
-            font-family: 'Roboto', 'Noto', sans-serif;
-            font-weight: normal;
-            font-size: 14px;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        paper-card {
-            max-width: 500px;
-
-        }
-
-        paper-button.pink {
-            background-color: var(--paper-pink-a200);
-            --paper-button-ink-color: var(--paper-pink-a200);
-            color: #ffffff;
-        }
-
-        paper-button.pink:hover {
-            background-color: var(--paper-pink-200);
-        }
-
-        .card-header {
-            @apply --paper-font-headline;
-        }
-    </style>
 </head>
 
 <body class="pink lighten-3">
@@ -63,20 +20,20 @@
             <img class="floaty" src="img/kotori.png">
         </div>
     </div>
-    <div align="center" class="container" style="padding-top:10%">
-        <paper-card>
-            <div class="card-header">
-                <i class="material-icons" style="padding-top:15%">build</i>
-                <br>
-                <p style="padding-left:10%; padding-right:10%"><b> Work In Progess!</b></p>
-                <p style="padding-left:10%; padding-right:10%"> We're hard at work at the moment. Meanwhile, you can help us implement a few things.</p>
+
+    <div class="container" align="center">
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title"><i class ="material-icons">build</i> Work in Progress</span>
+                <p>
+                    Hey, thanks for checking in! however, this site is not yet done. However, you can go to the following links.
+                </p>
             </div>
-            <div class="card-actions">
-                <paper-button onclick="goToLink(this, 'https://github.com/ClarityMoe/claritymoe.github.io')"><i class="material-icons" style="padding-right:3%;">code</i><a>IMPROVE THIS PAGE</a></paper-button>
+            <div class="card-action">
+                <a href="#"><i class="material-icons">cloud</i> GitHub</a>
+                <a href="#"><i class="material-icons">chat_bubble</i> Discord Server</a>
             </div>
-        </paper-card>
-        <br/>
-        <br/>
+        </div>
     </div>
 </body>
 
